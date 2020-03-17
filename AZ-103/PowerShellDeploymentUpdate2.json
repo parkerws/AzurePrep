@@ -6,10 +6,6 @@
             "defaultValue": "backendSERVER",
             "type": "String"
         },
-        "virtualMachines_backendSERVER2_name": {
-            "defaultValue": "backendSERVER2",
-            "type": "String"
-        },
         "virtualMachines_frontendSERVER_name": {
             "defaultValue": "frontendSERVER",
             "type": "String"
@@ -45,8 +41,8 @@
     },
     "variables": {
             "backendserver" : "backend2",
-            "nicname" : "backend2nic",
-            "backendpip": "backendpip"
+            "backendpip": "backendpip",
+            "nicname" : "backend2nic" 
     },
     "resources": [
         {
